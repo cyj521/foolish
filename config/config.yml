@@ -1,0 +1,34 @@
+excel:
+    file: cases.xlsx
+
+log:
+    log_name: my_log
+    file_name: log.txt
+    log_level: "DEBUG"
+    stream_level: "DEBUG"
+    file_level: "DEBUG"
+    fmt: '%(asctime)s--%(filename)s--line:%(lineno)d--%(levelname)s:%(message)s'
+
+db:
+    host: "120.78.128.25"
+    port: 3306
+    user: "future"
+    password: "123456"
+    charset: "utf8"
+    database: "futureloan"
+    cursorclass: DictCursor
+
+host: "http://api.lemonban.com/futureloan"
+
+user:
+    mobile_phone: "15736970220"
+    pwd: "12345678"
+
+admin_user:
+    mobile_phone: "15736970208"
+    pwd: "12345678"
+
+invest_user:
+    mobile_phone: "15736970210"
+    pwd: "12345678"
+
