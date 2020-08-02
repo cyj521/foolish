@@ -1,0 +1,23 @@
+db:
+  host: "www.keyou.site"
+  port: 13306
+  user: "lemon520"
+  password: "123456"
+  charset: "utf8"
+  database: "test"
+  cursorclass: DictCursor
+
+log:
+  file_name: "log.txt"
+  log_name: "my_log"
+  log_level: "DEBUG"
+  stream_level: "DEBUG"
+  file_level: "DEBUG"
+  fmt: "%(asctime)s--%(filename)s--line:%(lineno)d--%(levelname)s:%(message)s"
+
+case:
+  case_file: "cases_test.xlsx"
+
+url: "http://api.keyou.site:8000"
+
+password: "123456"
